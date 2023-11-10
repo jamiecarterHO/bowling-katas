@@ -6,6 +6,8 @@ const isSpare = (frame) => {
   return frame.firstBowl + frame.secondBowl === 10 ? true : false;
 };
 
+
+
 module.exports = {
   isStrike,
   isSpare
